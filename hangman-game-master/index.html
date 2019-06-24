@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="container text-center">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <img src="./assets/images/heading.jpg" alt="">
+            </div>
+        </div>
+    </header>
+    <section class="container text-center">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 left">
+                <div class="band_pic"></div>
+                <h2 id="msg"></h2>
+                <p id="song_name"></p>
+                <button class="btn return-btn">Return to The Game</button>
+                <button class="btn lyrics-btn">Show the lyrics</button>
+                <div class="song"></div>
+                <button class="btn offer">Open the previous song</button>
+            </div>
+            <div class="col-lg-6 col-md-6 right">
+                <p class="text">Press any key to get started!</p>
+                <p class="text">Wins</p>
+                <p class="var" id="wins"></p>
+                <p class="text">Current word</p>
+                <p class="var" id="letters"></p>
+                <p class="text">Number of Guesses Remaining</p>
+                <p class="var" id="chanses">12</p>
+                <p class="text">Letters Already Guessed</p>
+                <p class="var" id="guesses"></p>
+            </div>
+            <div class="col-lg-6 col-md-6 lyrics-sec">
+                <iframe class="lyrics"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>

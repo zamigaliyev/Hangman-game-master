@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Chewy', cursive, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    letter-spacing: 0.2em;
+}
+
+header {
+    margin-top: 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.left img {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.var {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#msg, #song_name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0.2em;
+}
+
+#song_name {
+    margin-bottom: 100px;
+}
+
+.song {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 150px);
+}
+
+.offer, .lyrics-btn, .return-btn {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 150px);
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.lyrics-btn, .return-btn {
+    bottom: 60px;
+}
+
+.offer:hover, .lyrics-btn:hover, .return-btn:hover {
+    color:#C91899;
+}
+
+
+section {
+    max-width: 800px !important;
+    margin-bottom: 60px;
+}
+
+section .text {
+    padding: 10px 15px;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.left, .right, .lyrics-sec {
+    border: dashed 4px white;
+}
+
+.lyrics-sec {
+    padding: 0;
+}
+
+.left {
+    padding: 20px;
+    position: relative;
+}
+
+.lyrics {
+    height: 528px;
+    color: white;
+    border: none;
+    width: 100%;
+}
